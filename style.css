@@ -67,9 +67,9 @@ p  { color: black;
 }
 
 .image{
- width: 380px;
- height: 364px;
- border-radius: 60%;
+ /* width: 380px;
+ height: 364px; */
+ border-radius:1000px;
  padding-top: 10px;
  
 }
