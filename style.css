@@ -129,9 +129,21 @@ a:hover {
   font-size: 60px;
   padding-bottom: 50px;
   align-items: center;
+  color: #741bff;
 }
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: none;
+}
+.fas {
+  color: #551a8b;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.fab {
+  padding-left: 9px;
+  padding-right: 9px;
+  color: #551a8b;
+  
 }
