@@ -138,12 +138,12 @@ a:-webkit-any-link {
 }
 .fas {
   color: #551a8b;
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .fab {
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 3px;
+  padding-right: 3px;
   color: #551a8b;
   
 }
