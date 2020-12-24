@@ -17,7 +17,7 @@ body {
 .menu {
   text-align: right;
   padding-right: 30px;
-  padding-top: 25px;
+  margin-top: -33px;
 
 }
 
@@ -163,4 +163,9 @@ a {
 }
 .img-bot {
   height: 95px;
+}
+.flag {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 20px;
 }
