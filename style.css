@@ -168,4 +168,18 @@ a {
   display: flex;
   padding-top: 20px;
   margin-left: 20px;
+  
+}
+
+.img-br {
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.img-eua {
+  border-radius: 10px;
+}
+.img-esp {
+ border-radius: 10px;
+ padding-left: 5px;
 }
