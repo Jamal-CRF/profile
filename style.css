@@ -48,7 +48,9 @@ h1 {
   color: #4a566e;
   text-align: center;
   font-size: 48px;
-  padding-top: 130px;
+  padding-top: 130px; 
+  text-shadow: rgb(192, 192, 192) 0.2em 0.2em 0.2em;
+  font-weight: bold;
 }
 h2 {
   font-size: 35px;
@@ -69,16 +71,6 @@ p  { color: rgb(87, 78, 78);
   font-size: 19px;
 
 }
-.animation {
-  @keyframes pisca{
-    0%, 100%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-}
-}
 
 .image-lucas{
  /* width: 380px;
@@ -87,7 +79,7 @@ p  { color: rgb(87, 78, 78);
  /* padding-top: 10px;
  padding-bottom: 30px; */
  margin-top: 20px;
- margin-bottom: 20px;
+ margin-bottom: 60px;
  
 }
 
@@ -98,6 +90,7 @@ p  { color: rgb(87, 78, 78);
  margin-left: 20px;
  font-size: 22px;
  font-weight: bold;
+ text-shadow: rgb(184, 184, 184) 0.2em 0.2em 0.2em;
 
 }
 
@@ -105,10 +98,13 @@ a:hover {
  color: rgb(178, 108, 236);
  text-decoration: none;
 }
+.text-apresentetion {
+ padding-top: 25px;
+}
 .skill {
  background: white;
  border-radius: 30px;
- width: 300px;
+ width: 500px;
  margin-left: 20px;
  margin-right: 20px;
  text-align: center;
@@ -116,6 +112,7 @@ a:hover {
  padding-top: 40px;
  padding-right: 10px;
  padding-left: 10px;
+ box-shadow:rgb(61, 61, 61) 0.40em 0.40em 0.40em 0.40em;
 }
 
 .titleskills {
@@ -124,6 +121,8 @@ a:hover {
  padding-top: 60px;
  padding-bottom: 40px;
  font-size: 35px;
+ text-shadow: rgb(0, 0, 0) 0.3em 0.3em 0.3em;
+ font-weight: bold;
 
 }
 
@@ -132,6 +131,8 @@ a:hover {
   text-align: center;
   padding-bottom: 60px;
   margin-left: 30px;
+  text-shadow: rgb(192, 192, 192) 0.2em 0.2em 0.2em;
+  font-weight: bold;
 }
 
 
@@ -141,6 +142,8 @@ a:hover {
   align-items: center;
   color: #741bff;
   text-align: center;
+  text-shadow: rgb(214, 214, 214) 0.2em 0.2em 0.2em;
+  
 }
 a {
   text-decoration: none;
