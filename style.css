@@ -69,6 +69,16 @@ p  { color: rgb(87, 78, 78);
   font-size: 19px;
 
 }
+.animation {
+  @keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+}
 
 .image-lucas{
  /* width: 380px;

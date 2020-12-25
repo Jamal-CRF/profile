@@ -9,6 +9,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../profile/images/lucas_foto.jpg" type="image/gif">
     <title>Profile Lucas</title>
+    <script type="text/javascript">
+      window.onload = function(){
+      var txtTitulo = 'Sou um desenvolvedor full stack formado pela Le Wagon. Estou muito animado para começar a trabalhar com programação 🧑🏼‍💻👨🏼‍💻🧑🏼‍🚀.';
+      var txt1 = document.getElementById("animation");
+
+      var speed = 35;
+      var cont = 0;
+
+      function typeWriter () {
+        if(cont < txtTitulo.length){
+          txt1.innerHTML += "<u>" + txtTitulo.charAt(cont) + "</u>";
+          cont++;
+          setTimeout(typeWriter, speed);
+         }else{
+           cont = 0;
+         }
+        }
+
+       typeWriter();
+    };
+    </script>
   </head>
   <body>
     <div class="card1" id="I">
@@ -25,9 +46,7 @@
         
       </div>
         <h1>Lucas Araújo</h1>
-        <p>
-          Sou um desenvolvedor full stack formado pela Le Wagon.<br>Estou muito animado para começar a trabalhar com programação<br>🧑🏼‍💻👨🏼‍💻🧑🏼‍🚀
-        </p>
+        <p id="animation"></p>
         <img src="images/lucas_foto.jpg"class="image-lucas">
     </div>
     
