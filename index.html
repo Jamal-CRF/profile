@@ -10,25 +10,26 @@
     <link rel="icon" href="../profile/images/lucas_foto.jpg" type="image/gif">
     <title>Profile Lucas</title>
     <script type="text/javascript">
-      window.onload = function(){
-      var txtTitulo = 'Sou um desenvolvedor full stack formado pela Le Wagon. Estou muito animado para começar a trabalhar com programação 🧑🏼‍💻👨🏼‍💻🧑🏼‍🚀.';
-      var txt1 = document.getElementById("animation");
+       window.onload = function(){
+        var txtTitulo = 'Lucas Araújo Mouta';
+        var txt1 = document.getElementById("titulo");
+    
+        var speed = 140;
+        var cont = 0;
 
-      var speed = 35;
-      var cont = 0;
-
-      function typeWriter () {
+        function typeWriter () {
         if(cont < txtTitulo.length){
-          txt1.innerHTML += "<u>" + txtTitulo.charAt(cont) + "</u>";
-          cont++;
+        txt1.innerHTML +=  txtTitulo.charAt(cont);
+            cont++;
           setTimeout(typeWriter, speed);
-         }else{
-           cont = 0;
-         }
+        }else{
+          cont = 0;
+        }
         }
 
-       typeWriter();
-    };
+        typeWriter();
+      };
+
     </script>
   </head>
   <body>
@@ -45,8 +46,10 @@
         <a href="#contact" class="linkmenu">Fale Comigo!</a>
         
       </div>
-        <h1>Lucas Araújo</h1>
-        <p id="animation"></p>
+        <h1 id="titulo"></h1>
+        <p class="text-apresentetion">
+          Sou um desenvolvedor full stack formado pela Le Wagon.<br>Estou muito animado para começar a trabalhar com programação<br> 🧑🏼‍💻👨🏼‍💻🧑🏼‍🚀.
+        </p>
         <img src="images/lucas_foto.jpg"class="image-lucas">
     </div>
     
